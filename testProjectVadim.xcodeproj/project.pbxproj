@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F08EEAE1FC6E77400C13ADE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F08EEAD1FC6E77400C13ADE /* AppDelegate.swift */; };
+		3F08EEB01FC6E77400C13ADE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F08EEAF1FC6E77400C13ADE /* ViewController.swift */; };
+		3F08EEB31FC6E77400C13ADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F08EEB11FC6E77400C13ADE /* Main.storyboard */; };
+		3F08EEB51FC6E77400C13ADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F08EEB41FC6E77400C13ADE /* Assets.xcassets */; };
+		3F08EEB81FC6E77400C13ADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F08EEB61FC6E77400C13ADE /* LaunchScreen.storyboard */; };
+		3F08EEC31FC6E77400C13ADE /* testProjectVadimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F08EEC21FC6E77400C13ADE /* testProjectVadimTests.swift */; };
+		3F08EECE1FC6E77400C13ADE /* testProjectVadimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F08EECD1FC6E77400C13ADE /* testProjectVadimUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F08EEBF1FC6E77400C13ADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F08EEA21FC6E77400C13ADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F08EEA91FC6E77400C13ADE;
+			remoteInfo = testProjectVadim;
+		};
+		3F08EECA1FC6E77400C13ADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F08EEA21FC6E77400C13ADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F08EEA91FC6E77400C13ADE;
+			remoteInfo = testProjectVadim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F08EEAA1FC6E77400C13ADE /* testProjectVadim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testProjectVadim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F08EEAD1FC6E77400C13ADE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F08EEAF1FC6E77400C13ADE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F08EEB21FC6E77400C13ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F08EEB41FC6E77400C13ADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F08EEB71FC6E77400C13ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F08EEB91FC6E77400C13ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F08EEBE1FC6E77400C13ADE /* testProjectVadimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testProjectVadimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F08EEC21FC6E77400C13ADE /* testProjectVadimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testProjectVadimTests.swift; sourceTree = "<group>"; };
+		3F08EEC41FC6E77400C13ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F08EEC91FC6E77400C13ADE /* testProjectVadimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testProjectVadimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F08EECD1FC6E77400C13ADE /* testProjectVadimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testProjectVadimUITests.swift; sourceTree = "<group>"; };
+		3F08EECF1FC6E77400C13ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F08EEA71FC6E77400C13ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F08EEBB1FC6E77400C13ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F08EEC61FC6E77400C13ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F08EEA11FC6E77400C13ADE = {
+			isa = PBXGroup;
+			children = (
+				3F08EEAC1FC6E77400C13ADE /* testProjectVadim */,
+				3F08EEC11FC6E77400C13ADE /* testProjectVadimTests */,
+				3F08EECC1FC6E77400C13ADE /* testProjectVadimUITests */,
+				3F08EEAB1FC6E77400C13ADE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F08EEAB1FC6E77400C13ADE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F08EEAA1FC6E77400C13ADE /* testProjectVadim.app */,
+				3F08EEBE1FC6E77400C13ADE /* testProjectVadimTests.xctest */,
+				3F08EEC91FC6E77400C13ADE /* testProjectVadimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F08EEAC1FC6E77400C13ADE /* testProjectVadim */ = {
+			isa = PBXGroup;
+			children = (
+				3F08EEAD1FC6E77400C13ADE /* AppDelegate.swift */,
+				3F08EEAF1FC6E77400C13ADE /* ViewController.swift */,
+				3F08EEB11FC6E77400C13ADE /* Main.storyboard */,
+				3F08EEB41FC6E77400C13ADE /* Assets.xcassets */,
+				3F08EEB61FC6E77400C13ADE /* LaunchScreen.storyboard */,
+				3F08EEB91FC6E77400C13ADE /* Info.plist */,
+			);
+			path = testProjectVadim;
+			sourceTree = "<group>";
+		};
+		3F08EEC11FC6E77400C13ADE /* testProjectVadimTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F08EEC21FC6E77400C13ADE /* testProjectVadimTests.swift */,
+				3F08EEC41FC6E77400C13ADE /* Info.plist */,
+			);
+			path = testProjectVadimTests;
+			sourceTree = "<group>";
+		};
+		3F08EECC1FC6E77400C13ADE /* testProjectVadimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F08EECD1FC6E77400C13ADE /* testProjectVadimUITests.swift */,
+				3F08EECF1FC6E77400C13ADE /* Info.plist */,
+			);
+			path = testProjectVadimUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F08EEA91FC6E77400C13ADE /* testProjectVadim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F08EED21FC6E77400C13ADE /* Build configuration list for PBXNativeTarget "testProjectVadim" */;
+			buildPhases = (
+				3F08EEA61FC6E77400C13ADE /* Sources */,
+				3F08EEA71FC6E77400C13ADE /* Frameworks */,
+				3F08EEA81FC6E77400C13ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testProjectVadim;
+			productName = testProjectVadim;
+			productReference = 3F08EEAA1FC6E77400C13ADE /* testProjectVadim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F08EEBD1FC6E77400C13ADE /* testProjectVadimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F08EED51FC6E77400C13ADE /* Build configuration list for PBXNativeTarget "testProjectVadimTests" */;
+			buildPhases = (
+				3F08EEBA1FC6E77400C13ADE /* Sources */,
+				3F08EEBB1FC6E77400C13ADE /* Frameworks */,
+				3F08EEBC1FC6E77400C13ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F08EEC01FC6E77400C13ADE /* PBXTargetDependency */,
+			);
+			name = testProjectVadimTests;
+			productName = testProjectVadimTests;
+			productReference = 3F08EEBE1FC6E77400C13ADE /* testProjectVadimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F08EEC81FC6E77400C13ADE /* testProjectVadimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F08EED81FC6E77400C13ADE /* Build configuration list for PBXNativeTarget "testProjectVadimUITests" */;
+			buildPhases = (
+				3F08EEC51FC6E77400C13ADE /* Sources */,
+				3F08EEC61FC6E77400C13ADE /* Frameworks */,
+				3F08EEC71FC6E77400C13ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F08EECB1FC6E77400C13ADE /* PBXTargetDependency */,
+			);
+			name = testProjectVadimUITests;
+			productName = testProjectVadimUITests;
+			productReference = 3F08EEC91FC6E77400C13ADE /* testProjectVadimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F08EEA21FC6E77400C13ADE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Vadim Sokolov";
+				TargetAttributes = {
+					3F08EEA91FC6E77400C13ADE = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					3F08EEBD1FC6E77400C13ADE = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F08EEA91FC6E77400C13ADE;
+					};
+					3F08EEC81FC6E77400C13ADE = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F08EEA91FC6E77400C13ADE;
+					};
+				};
+			};
+			buildConfigurationList = 3F08EEA51FC6E77400C13ADE /* Build configuration list for PBXProject "testProjectVadim" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F08EEA11FC6E77400C13ADE;
+			productRefGroup = 3F08EEAB1FC6E77400C13ADE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F08EEA91FC6E77400C13ADE /* testProjectVadim */,
+				3F08EEBD1FC6E77400C13ADE /* testProjectVadimTests */,
+				3F08EEC81FC6E77400C13ADE /* testProjectVadimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F08EEA81FC6E77400C13ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F08EEB81FC6E77400C13ADE /* LaunchScreen.storyboard in Resources */,
+				3F08EEB51FC6E77400C13ADE /* Assets.xcassets in Resources */,
+				3F08EEB31FC6E77400C13ADE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F08EEBC1FC6E77400C13ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F08EEC71FC6E77400C13ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F08EEA61FC6E77400C13ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F08EEB01FC6E77400C13ADE /* ViewController.swift in Sources */,
+				3F08EEAE1FC6E77400C13ADE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F08EEBA1FC6E77400C13ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F08EEC31FC6E77400C13ADE /* testProjectVadimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F08EEC51FC6E77400C13ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F08EECE1FC6E77400C13ADE /* testProjectVadimUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F08EEC01FC6E77400C13ADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F08EEA91FC6E77400C13ADE /* testProjectVadim */;
+			targetProxy = 3F08EEBF1FC6E77400C13ADE /* PBXContainerItemProxy */;
+		};
+		3F08EECB1FC6E77400C13ADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F08EEA91FC6E77400C13ADE /* testProjectVadim */;
+			targetProxy = 3F08EECA1FC6E77400C13ADE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F08EEB11FC6E77400C13ADE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F08EEB21FC6E77400C13ADE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F08EEB61FC6E77400C13ADE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F08EEB71FC6E77400C13ADE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F08EED01FC6E77400C13ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F08EED11FC6E77400C13ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F08EED31FC6E77400C13ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testProjectVadim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.college-mirbis.testProjectVadim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F08EED41FC6E77400C13ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testProjectVadim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.college-mirbis.testProjectVadim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F08EED61FC6E77400C13ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testProjectVadimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.college-mirbis.testProjectVadimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testProjectVadim.app/testProjectVadim";
+			};
+			name = Debug;
+		};
+		3F08EED71FC6E77400C13ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testProjectVadimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.college-mirbis.testProjectVadimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testProjectVadim.app/testProjectVadim";
+			};
+			name = Release;
+		};
+		3F08EED91FC6E77400C13ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testProjectVadimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.college-mirbis.testProjectVadimUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testProjectVadim;
+			};
+			name = Debug;
+		};
+		3F08EEDA1FC6E77400C13ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testProjectVadimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.college-mirbis.testProjectVadimUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testProjectVadim;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F08EEA51FC6E77400C13ADE /* Build configuration list for PBXProject "testProjectVadim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F08EED01FC6E77400C13ADE /* Debug */,
+				3F08EED11FC6E77400C13ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F08EED21FC6E77400C13ADE /* Build configuration list for PBXNativeTarget "testProjectVadim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F08EED31FC6E77400C13ADE /* Debug */,
+				3F08EED41FC6E77400C13ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F08EED51FC6E77400C13ADE /* Build configuration list for PBXNativeTarget "testProjectVadimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F08EED61FC6E77400C13ADE /* Debug */,
+				3F08EED71FC6E77400C13ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F08EED81FC6E77400C13ADE /* Build configuration list for PBXNativeTarget "testProjectVadimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F08EED91FC6E77400C13ADE /* Debug */,
+				3F08EEDA1FC6E77400C13ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F08EEA21FC6E77400C13ADE /* Project object */;
+}
